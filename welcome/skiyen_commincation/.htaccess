@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^loopchalt?$ loopchalt.php
+RewriteRule ^loopchalt1?$ loopchalt1.php
+RewriteRule ^loopchalt2?$ loopchalt2.php

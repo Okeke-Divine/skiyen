@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin
+Disallow: /admin*/
+Allow: /
+Allow: /index.php
+Allow: /reg.php
+Allow: /register
+Allow: /*.skiyen$
+Allow: /register/index.php
+Allow: /welcome
+Sitemap: http://skiyen.rf.gd/sitemap.php
+Sitemap: http://skiyen.rf.gd/profile-sitemap.php

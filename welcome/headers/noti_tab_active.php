@@ -1,0 +1,1 @@
+<li> <button class="tooltip_ski active_ski" onclick="window.location = '<?php echo $noti; ?>.php';" data-tooltip="Notification" id="btn_bell"> <i class="fas fa-bell"></i></button></li>

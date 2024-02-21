@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteRule ^sitemap\.xml/?$ sitemap.php
+
+RewriteRule ^login?$ login.php
+RewriteRule ^logout?$ logout.php
+
+RewriteRule ^view_profile?$ view_profile.php
+
+RewriteRule ^profile/([a-zA-Z0-9_-]+)$ view_profile.php?id=$1
+
+
+ErrorDocument 403 /errors.php?error_type=403
+ErrorDocument 404 /errors.php?error_type=404

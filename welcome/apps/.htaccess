@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^todo-list inc/todo-list.php
+RewriteRule ^calculator inc/calculator.php
+RewriteRule ^send-file inc/send-file.php

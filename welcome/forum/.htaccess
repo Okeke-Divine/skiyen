@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^search-for-([a-zA-Z0-9_-]+)$ index.php?search=$1
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?question=$1

@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^group-members group-members.php
+RewriteRule ^group-settings group-setting.php
+RewriteRule ^main_settings main_settings.php
+RewriteRule ^admin-settings admin_settings_init.php
+RewriteRule ^add-users add_users.php

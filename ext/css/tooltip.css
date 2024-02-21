@@ -1,0 +1,24 @@
+.sk_tooltip{
+                position: relative;
+            }
+            .sk_tooltip::after{
+                content: attr(sk_tooltip);
+                height: auto;
+                word-wrap: break-word;
+                background: rgba(0,0,0,0.4);
+                color: #fff;
+                font-size: 1rem;
+                text-align: center;
+                position: absolute;
+                bottom: -150%;
+                padding: 5px 12px;
+                line-height: 30px;
+                border-radius: 3px;
+                opacity: 0;
+                transition: .3s;
+                pointer-events: none;
+                user-select: none;
+            }
+            .sk_tooltip:hover::after{
+                opacity: 1;
+            }

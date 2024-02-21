@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^settings settings.php
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?chat_with=$1

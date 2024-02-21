@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^x-and-o real-games/x-and-o.php
+RewriteRule ^football real-games/football.php

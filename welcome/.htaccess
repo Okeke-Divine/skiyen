@@ -1,0 +1,10 @@
+RewriteEngine On
+
+
+
+RewriteRule ^newsfeed?$ index.php
+RewriteRule ^home?$ index.php
+RewriteRule ^home.php?$ index.php
+
+RewriteRule ^view_comments?$ view_comments.php
+RewriteRule ^view_comments?/([a-zA-Z0-9_-]+)$ view_comments.php?date=$1

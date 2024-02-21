@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^my-info my-info.php
+
+RewriteRule ^change-password change-password.php
