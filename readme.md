@@ -1,1 +1,5 @@
-Skiyen is a social media that i built while in secondary school. Reached a total of 300+ users before i took it down.
+# Skiyen
+
+Micro php social media
+
+Author: https://github.com/Okeke-Divine
